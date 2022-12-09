@@ -1,0 +1,255 @@
+body{
+    background-color: #E5E8E8;
+}
+
+main{
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #283747;
+    border: solid 1px;
+    border-radius: 5px;
+    color: white;
+    margin: 15px 10px 10px 10px;
+    padding: 10px; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 150;
+    margin-bottom: 0%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    margin-top: 0%;
+}
+
+h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profilepicture img{
+    width: 250px;
+    height: 333px;
+    border: solid 1px;
+    border-radius: 30px;
+    margin: 10px;
+    justify-self: center;
+}
+
+.information p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.wrapper2{
+    display: flex;
+    flex-direction: row;
+}
+
+.information{
+    padding: 20px;
+    margin: 10px;
+    font-family: "Noto Sans", sans-serif bold;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+hr{
+    color: black;
+    width: 100%;
+    
+}
+
+.contactinfo{
+    
+}
+
+.profilepicture{
+    background-color: #283747;
+    border: solid 2px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.profilepicture h3{
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa-linkedin{
+    background-color: #2E86C1;
+    color: white;
+    border-radius: 30%;
+}
+
+.fa-twitter{
+    background-color: #3498DB;
+    color: white;
+    border-radius: 30%;
+}
+
+table{
+    width: 500px;
+    color: white;
+}
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.table{
+    display: flex;
+    border: solid 1px;
+    background-color: #283747;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+
+th{
+    
+}
+td{
+    text-align: center;
+    border: solid 1px;
+    padding: 10px;
+
+}
+.imgthing{
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+}
+.imgthing img{
+ height: 333px;
+ width: 500px;
+ margin-left: 1px;
+ border-radius: 5px;
+ 
+}
+
+.wrapper1{
+    display: flex;
+    display: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.location{
+   padding: 20px;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .table{
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .wrapper{
+    }
+
+    .imgthing img{
+       flex-grow: 1;
+       max-width: auto;
+       height: auto;
+    }
+
+    .imgthing{
+       margin-top: 20px;
+       margin-bottom: 30px;
+    }
+    .table{
+        border: none;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .projects{
+        justify-self: center;
+    }
+
+    .wrapper1{
+        flex-direction: column;
+    }
+
+    .wrapper2{
+        flex-direction: column;
+    }
+
+    .profilepicture{
+         
+    }
+
+    .profilepicture img{
+        flex-grow: 1;
+        max-width: auto;
+        height: auto;
+        margin:auto;
+    }
+    
+}
+
+
+
