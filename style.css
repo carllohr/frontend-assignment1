@@ -2,13 +2,19 @@ body{
     background-color: #E5E8E8;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+}
 main{
 }
+
+
 
 .container{
     display:flex;
     flex-direction: row;
-    justify-self: center;
+    justify-content: center;
 }
 
 .container1{
@@ -100,10 +106,12 @@ hr{
 }
 
 .contactinfo{
-    
+   
 }
 
 .profilepicture{
+    display: flex;
+    flex-direction: column;
     background-color: #283747;
     border: solid 2px;
     border-radius: 5px;
@@ -181,7 +189,7 @@ td{
 
 .wrapper1{
     display: flex;
-    display: row;
+    flex-direction: row;
     justify-content: center;
     margin: auto;
 }
@@ -213,7 +221,6 @@ iframe{
 
     .imgthing img{
        flex-grow: 1;
-       max-width: auto;
        height: auto;
     }
 
@@ -234,6 +241,10 @@ iframe{
         flex-direction: column;
     }
 
+    .contactinfo{
+        text-align: center;
+    }
+
     .wrapper2{
         flex-direction: column;
     }
@@ -243,11 +254,14 @@ iframe{
     }
 
     .profilepicture img{
-        flex-grow: 1;
-        max-width: auto;
         height: auto;
         margin:auto;
     }
+
+    header h1{
+        font-size: 50px;
+    }
+
     
 }
 
