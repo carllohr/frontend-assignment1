@@ -200,6 +200,9 @@ td{
 
 iframe{
     border-radius: 5px;
+    max-width: 100%;
+    max-height: 100;
+    position: relative;
 }
 
 @media screen and (max-width: 900px){
@@ -243,6 +246,10 @@ iframe{
         flex-direction: column;
     }
 
+    .wrapper1 h3{
+        font-size: 20px;
+    }
+
     .contactinfo{
         text-align: center;
     }
@@ -265,6 +272,11 @@ iframe{
 
     header h1{
         font-size: 50px;
+    }
+
+    .iframe{
+        height: auto;
+        width: auto;
     }
 
     
